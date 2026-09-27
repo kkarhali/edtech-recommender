@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-09-22T08:47:41Z",
+  "source": "data/projects/e_learning_pilot/data/raw/ (shared, read-only; frozen for e_learning_thesis in inputs/manifest.json at S0, 2026-09-20T12:10:00Z)",
+  "dataset_page": "https://research.stem.open.ac.uk/ouanalyse/",
+  "citation": "Kuzilek J., Hlosta M., Zdrahal Z. Open University Learning Analytics dataset. Nature Scientific Data 4:170171. doi: 10.1038/sdata.2017.171 (2017).",
+  "licence_status": "CC BY 4.0, verified 2026-09-21 by the Methodologist at the dataset authors' own figshare deposit (DOI 10.6084/m9.figshare.5081998.v1) and recorded in thesis/ch03.md and methodology/data_statement.md; residual provenance gap: the local oulad.zip archive is not traced to that deposit; the value first written here on 2026-09-22 (unverified) predated that verification",
+  "files": [
+    {
+      "path": "data/projects/e_learning_pilot/data/raw/studentInfo.csv",
+      "bytes": 3462763,
+      "sha256": "815fbc3e2de29f79900bc63f0345a35db62c9146afaa1d86e7107b8b3beffc60"
+    },
+    {
+      "path": "data/projects/e_learning_pilot/data/raw/studentVle.csv",
+      "bytes": 453836331,
+      "sha256": "52668253d876c5becbcb72185977152700cecab2942aca807fecc3dd54b937f0"
+    },
+    {
+      "path": "data/projects/e_learning_pilot/data/raw/vle.csv",
+      "bytes": 270612,
+      "sha256": "d7a146497edd0e47ef536144b58796c07b554002d3753e848b8e4cd8a56f4c38"
+    },
+    {
+      "path": "data/projects/e_learning_pilot/data/raw/courses.csv",
+      "bytes": 526,
+      "sha256": "4f16eee7454b15e109b0a21a0e43be820e6846ed6f9301bb7feb5ab5ad737a75"
+    },
+    {
+      "path": "data/projects/e_learning_pilot/data/raw/studentRegistration.csv",
+      "bytes": 1132550,
+      "sha256": "bbc87a0de1fe2a9ec6decce1ca6c1a02cf17b54ad3bdcc673fc6413b41c61d47"
+    },
+    {
+      "path": "data/projects/e_learning_pilot/data/raw/assessments.csv",
+      "bytes": 8211,
+      "sha256": "9ce92381e4a0ac457f8e251b2eb2c179ed51e023ab30d1d671a0268bd62316ba"
+    },
+    {
+      "path": "data/projects/e_learning_pilot/data/raw/studentAssessment.csv",
+      "bytes": 5690483,
+      "sha256": "b1839e17618a5de36b6d189a242d3123f7939a56c8c9ccef0c17b9199c614a6b"
+    },
+    {
+      "path": "data/projects/e_learning_pilot/data/raw/OULAD.names",
+      "bytes": 12278,
+      "sha256": "e497bc5232f385ece30a7e964b0339bd9b74ba9b9083508b66628fed9dc23ebe"
+    }
+  ],
+  "note_on_counts": "OULAD.names states 32,953 students; studentInfo.csv and studentRegistration.csv each hold 32,593 rows. Quote the counted row number, never the .names figure, and say which file you counted from.",
+  "reverify_result": "all 8 files match inputs/manifest.json sha256 exactly, no drift since S0 freeze"
+}

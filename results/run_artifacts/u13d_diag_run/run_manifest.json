@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "stage": "diagnostics",
+  "unit": "u13d_diag_run",
+  "artifact_dir": "D:\\Work\\Projects\\AutoResearch\\data\\projects\\e_learning_thesis\\results\\run_artifacts\\u13d_diag_run",
+  "run_log": "D:\\Work\\Projects\\AutoResearch\\data\\projects\\e_learning_thesis\\results\\run.log",
+  "only": null,
+  "argv": [
+    "code/main.py",
+    "--stage",
+    "diagnostics",
+    "--artifact-dir",
+    "results/run_artifacts/u13d_diag_run",
+    "--run-log",
+    "results/run.log"
+  ],
+  "command_line": "'D:\\Work\\Projects\\AutoResearch\\.venv-pilot\\Scripts\\python.exe' code/main.py --stage diagnostics --artifact-dir results/run_artifacts/u13d_diag_run --run-log results/run.log",
+  "seed": 42,
+  "random_seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "config_sha256": "bf2b77c0a85c58f577b132ac755466a23733f8eb3a5b75f4c967d1c42d6a9409",
+  "code_tree_sha256": "5a8f935a8dd05bb2b8428966ae9794a2cfe1bf6b7573b5005698bad267691b21",
+  "started_at": "2026-09-24T04:35:28Z",
+  "hard_constraints": {
+    "identical_splits_for_all_models": true,
+    "hardware": "single CPU, no GPU",
+    "downloaded_model_weights": false,
+    "max_cpu_hours_main": 4.0,
+    "max_minutes_phase1_reproduction": 15.0,
+    "reference_pdfs_read_only": true
+  },
+  "python": "3.12.3",
+  "executable": "D:\\Work\\Projects\\AutoResearch\\.venv-pilot\\Scripts\\python.exe",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "hardware": "Intel64 Family 6 Model 158 Stepping 13, GenuineIntel, 12 logical cores, no GPU",
+  "numpy": "2.5.3",
+  "pandas": "3.0.5",
+  "scikit_learn": "1.9.1",
+  "scipy": "1.18.1"
+}

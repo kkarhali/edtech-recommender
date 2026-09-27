@@ -1,0 +1,304 @@
+{
+  "schema_version": 1,
+  "unit": "u11_s5_run_main",
+  "cycle": 1,
+  "stage": "main",
+  "status": "completed",
+  "command_line": "'D:\\Work\\Projects\\AutoResearch\\.venv-pilot\\Scripts\\python.exe' code/main.py --stage main --artifact-dir results/run_artifacts/u11_s5_run_main --run-log results/run.log",
+  "argv": [
+    "code/main.py",
+    "--stage",
+    "main",
+    "--artifact-dir",
+    "results/run_artifacts/u11_s5_run_main",
+    "--run-log",
+    "results/run.log"
+  ],
+  "interpreter": "D:\\Work\\Projects\\AutoResearch\\.venv-pilot\\Scripts\\python.exe",
+  "code_tree_sha256": "694c3ea6026939967a6b01ab0698ef7336e77a8dd29f0739157e9f9662b0231c",
+  "code_tree_sha256_matches_g4_approval": true,
+  "config_sha256": "bf2b77c0a85c58f577b132ac755466a23733f8eb3a5b75f4c967d1c42d6a9409",
+  "seed": 42,
+  "random_seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "started_at": "2026-09-22T08:49:11Z",
+  "finished_at": "2026-09-22T09:52:00Z",
+  "exit_code": 0,
+  "wall_clock_seconds": 3769.12,
+  "process_cpu_seconds": 2798.41,
+  "child_worker_wall_seconds": 852.02,
+  "cpu_hours": 1.0140075106090969,
+  "hardware": "Intel64 Family 6 Model 158 Stepping 13, GenuineIntel, 12 logical cores, no GPU",
+  "python": "3.12.3",
+  "library_versions": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "scikit_learn": "1.9.1",
+    "scipy": "1.18.1"
+  },
+  "run_log_path": "results/run.log",
+  "run_log_before_sha256": "c4dfbd2ee50a9eef531d5d896c4dadc2ae41f35ee075c1199dc457e0cb8563aa",
+  "run_log_after_sha256": "d547e943a8e02b9fcc26c807b6072f6fafd4bf1e3ca873815de65bda615c0eac",
+  "run_log_note": "results/run.log is a single append-only log shared by both stages; before/after hashes for this stage's attempt confirm the file only grew and its prior bytes are unchanged (skill step 5).",
+  "attempt_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "attempt_note": "main.py wrote no stdout/stderr in either stage (all output goes to run.log and the artifact-directory files); attempt_sha256 is the SHA256 of that empty capture.",
+  "execution_event_hash": "e96a32c679c2bcf820456550d80ea40fc147778ba60a943a6531b6605dd8ce2d",
+  "execution_event_hash_note": "hand-computed per thesis-experiment-runner SKILL.md step 10 (deviation D2, decisions.log): SHA256 of canonical JSON {unit,cycle,stage,argv,started_at,finished_at,exit_code,run_log_before_sha256,run_log_after_sha256,attempt_sha256} in that key order, no execute-run event exists on this Windows machine (deviation D1).",
+  "criteria": {
+    "C1": "met",
+    "C2": "not met",
+    "C3": "not met",
+    "C4": "met",
+    "C5": "not met (unchecked conjunct)",
+    "C6": "unchecked"
+  },
+  "artifacts": [
+    {
+      "path": "results/run_artifacts/u11_s5_run_main/criteria_verdicts.json",
+      "bytes": 20722,
+      "sha256": "8f779bca2db7665a9f5081088f89b00c901a0b6cfc86dbc406c09fc0dbcce405"
+    },
+    {
+      "path": "results/run_artifacts/u11_s5_run_main/foundation_AAA_2013J.json",
+      "bytes": 2584,
+      "sha256": "98b436e8878501122da344306b69507037b50ae48f7c098f54f4cd26845715d1"
+    },
+    {
+      "path": "results/run_artifacts/u11_s5_run_main/foundation_AAA_2014J.json",
+      "bytes": 2586,
+      "sha256": "3928cbcdf69379c03b98448aecee43f599a7697fa6f2eb5eb1d7fdfbc760dc5a"
+    },
+    {
+      "path": "results/run_artifacts/u11_s5_run_main/foundation_BBB_2013B.json",
+      "bytes": 2641,
+      "sha256": "dcef391f49c3790ae066ce45b9ff088dbdd0f16b055837a8e05573fc44898144"
+    },
+    {
+      "path": "results/run_artifacts/u11_s5_run_main/foundation_BBB_2013J.json",
+      "bytes": 2618,
+      "sha256": "088e50acfd50c20bb378fb10a44794becd135aecc23c1d60b6b3a9ec08c2927b"
+    },
+    {
+      "path": "results/run_artifacts/u11_s5_run_main/foundation_BBB_2014B.json",
+      "bytes": 2609,
+      "sha256": "2cb1bb2ae37fd935857a5b8f9a7e753ffb1bca96c02e28fbcbaa78241d7958f1"
+    },
+    {
+      "path": "results/run_artifacts/u11_s5_run_main/foundation_BBB_2014J.json",
+      "bytes": 2616,
+      "sha256": "07f98995a80d3f129117d4261c0134828ae260debdae779ca050abdf2aa703a7"
+    },
+    {
+      "path": "results/run_artifacts/u11_s5_run_main/foundation_CCC_2014B.json",
+      "bytes": 2612,
+      "sha256": "67c634a599a563272d6ed9cec41fb49cd8cb26c48c11e1f2a0fc6e086ef4627b"
+    },
+    {
+      "path": "results/run_artifacts/u11_s5_run_main/foundation_CCC_2014J.json",
+      "bytes": 2615,
+      "sha256": "358740c5e0f82b62d8188e6174dfaae6fe9e26ecf1c1fabe42583abd62975e3e"
+    },
+    {
+      "path": "results/run_artifacts/u11_s5_run_main/foundation_DDD_2013B.json",
+      "bytes": 2632,
+      "sha256": "b7c88560bdff09d8710e319fd69f3f39daebc4dda89e403d79c8a13e9e07ae0a"
+    },
+    {
+      "path": "results/run_artifacts/u11_s5_run_main/foundation_DDD_2013J.json",
+      "bytes": 2647,
+      "sha256": "07f1cb90277f49cc8420ec899ae4ce5da0bacc6d2f47c4ef5d6b30a7f505608b"
+    },
+    {
+      "path": "results/run_artifacts/u11_s5_run_main/foundation_DDD_2014B.json",
+      "bytes": 2603,
+      "sha256": "304f96ded999e41e7b0449114cb52c33a74b9497dafc649b00b5d449ce5abebd"
+    },
+    {
+      "path": "results/run_artifacts/u11_s5_run_main/foundation_DDD_2014J.json",
+      "bytes": 2614,
+      "sha256": "70504703995443bd0955dab7223dc946af370667490e49e8d0dc199acfdd9d5c"
+    },
+    {
+      "path": "results/run_artifacts/u11_s5_run_main/foundation_EEE_2013J.json",
+      "bytes": 2597,
+      "sha256": "a3955dc7ad09127abba69169a93df89774d67dfcfcef80be261ff2050124c040"
+    },
+    {
+      "path": "results/run_artifacts/u11_s5_run_main/foundation_EEE_2014B.json",
+      "bytes": 2595,
+      "sha256": "78435b1d0ffcf2dab726d7c438a7cd4ed8f8341685b2ade3237ee955d330462b"
+    },
+    {
+      "path": "results/run_artifacts/u11_s5_run_main/foundation_EEE_2014J.json",
+      "bytes": 2608,
+      "sha256": "6cdcbb6090253bca8eeb8d147624cd9b7997b499c5cb5af5f3a9d203df7b8117"
+    },
+    {
+      "path": "results/run_artifacts/u11_s5_run_main/foundation_FFF_2013B.json",
+      "bytes": 2626,
+      "sha256": "7f6448eda46ce2a5de29a5e1bff2395ea6a6e53776e78133627b51aea88d801d"
+    },
+    {
+      "path": "results/run_artifacts/u11_s5_run_main/foundation_FFF_2013J.json",
+      "bytes": 2633,
+      "sha256": "c1b390cca7541e6cf4fae8d202292787da2571a5b94db8793d1186e99877587a"
+    },
+    {
+      "path": "results/run_artifacts/u11_s5_run_main/foundation_FFF_2014B.json",
+      "bytes": 2622,
+      "sha256": "164b396880fde3dba0e3829477e8ac9b6d726b1068717daf26fe4d7db423837f"
+    },
+    {
+      "path": "results/run_artifacts/u11_s5_run_main/foundation_FFF_2014J.json",
+      "bytes": 2633,
+      "sha256": "059cc806cbb9ad335338c785e3b475c85aff83e72ff345effade78dd44d0afbc"
+    },
+    {
+      "path": "results/run_artifacts/u11_s5_run_main/foundation_GGG_2013J.json",
+      "bytes": 2590,
+      "sha256": "cab12c4c22f9eeb6a431209bd790a78dcbe7ea184f240479a3e988d599ff340c"
+    },
+    {
+      "path": "results/run_artifacts/u11_s5_run_main/foundation_GGG_2014B.json",
+      "bytes": 2589,
+      "sha256": "d40b340101b7c79ab2ddf554bb70158eb2fc82cd7d0c57cfd1595a503d978854"
+    },
+    {
+      "path": "results/run_artifacts/u11_s5_run_main/foundation_GGG_2014J.json",
+      "bytes": 2590,
+      "sha256": "04390eb05454d3e286eb13f8c8cbf50f7577837d90acb28f5062d481e8a88a29"
+    },
+    {
+      "path": "results/run_artifacts/u11_s5_run_main/results_AAA_2013J.json",
+      "bytes": 642479,
+      "sha256": "4929d5e6f31211807ceea33e4c144b68d922171c029bb3ae13ae963880e71b0d"
+    },
+    {
+      "path": "results/run_artifacts/u11_s5_run_main/results_AAA_2014J.json",
+      "bytes": 645235,
+      "sha256": "742c52dde79c352062d7c978194e51a967bb92524599d6d7620c056412172c45"
+    },
+    {
+      "path": "results/run_artifacts/u11_s5_run_main/results_BBB_2013B.json",
+      "bytes": 639790,
+      "sha256": "c29567e5852d0d086f1efda9a518456dd9589999b8fae86b5644199db4e04d98"
+    },
+    {
+      "path": "results/run_artifacts/u11_s5_run_main/results_BBB_2013J.json",
+      "bytes": 640474,
+      "sha256": "f61af46ddb8cb4c24330a491fcd6dede3b2d76cd95e396bd726ab31285560e81"
+    },
+    {
+      "path": "results/run_artifacts/u11_s5_run_main/results_BBB_2014B.json",
+      "bytes": 639996,
+      "sha256": "7570deecb7c6bbcb93b92e57ac73324b196cae998f2a296945f8deb06ceb1934"
+    },
+    {
+      "path": "results/run_artifacts/u11_s5_run_main/results_BBB_2014J.json",
+      "bytes": 644272,
+      "sha256": "3d85e274437c2653c4c585a7fa9e710c4749f0488e4a091d4d37006c91f9eb75"
+    },
+    {
+      "path": "results/run_artifacts/u11_s5_run_main/results_CCC_2014B.json",
+      "bytes": 645540,
+      "sha256": "cc610547a7fb643f65e730dcb0d5a4cb57441e440aafe9563b1ae679b6644df0"
+    },
+    {
+      "path": "results/run_artifacts/u11_s5_run_main/results_CCC_2014J.json",
+      "bytes": 645274,
+      "sha256": "31ecaa5ddb7c1bd29c3ade0dcec22c62de28adab4b34965cf82847b10f53f5d6"
+    },
+    {
+      "path": "results/run_artifacts/u11_s5_run_main/results_DDD_2013B.json",
+      "bytes": 645916,
+      "sha256": "2c65ecfaaa2b8117f512a87e595383fe042c3bcec8cf872160b6d711e5db4859"
+    },
+    {
+      "path": "results/run_artifacts/u11_s5_run_main/results_DDD_2013J.json",
+      "bytes": 638280,
+      "sha256": "5489d8751fbc9fa0eeb580d7295eced608803fe187d0ae3fb3cef2d966c14c72"
+    },
+    {
+      "path": "results/run_artifacts/u11_s5_run_main/results_DDD_2014B.json",
+      "bytes": 645179,
+      "sha256": "599cb328593f77e3247bd8e4aaf81cf7d1a40c2ef6d2d198846339a97def8409"
+    },
+    {
+      "path": "results/run_artifacts/u11_s5_run_main/results_DDD_2014J.json",
+      "bytes": 645043,
+      "sha256": "64f778ec07b41f3a00cb1c15e4e236275eabdcb55edb8ad65f8d9d10d98d771e"
+    },
+    {
+      "path": "results/run_artifacts/u11_s5_run_main/results_EEE_2013J.json",
+      "bytes": 646264,
+      "sha256": "9c34697e7837271e48aec67f4520feb4898f17bcceb8bcb832f00718d891a7e1"
+    },
+    {
+      "path": "results/run_artifacts/u11_s5_run_main/results_EEE_2014B.json",
+      "bytes": 651178,
+      "sha256": "fc7242b590aed1676ffdf3c29b335cdd80657523f55cdd67c94ef31c7d75ed55"
+    },
+    {
+      "path": "results/run_artifacts/u11_s5_run_main/results_EEE_2014J.json",
+      "bytes": 652308,
+      "sha256": "37d9d614c86499553c99103eaa15331d7b2bbfe32866d0d49aecdc9577f5cbb3"
+    },
+    {
+      "path": "results/run_artifacts/u11_s5_run_main/results_FFF_2013B.json",
+      "bytes": 650287,
+      "sha256": "86252a69b31b7c3ab314e2e6de4f6eadd0b8a8d2e4e7318c5c92e30650f16a73"
+    },
+    {
+      "path": "results/run_artifacts/u11_s5_run_main/results_FFF_2013J.json",
+      "bytes": 650024,
+      "sha256": "569f44dbdb3bf215a1f6c3dee6b3fb650f8f723343edd13570865283a414fca4"
+    },
+    {
+      "path": "results/run_artifacts/u11_s5_run_main/results_FFF_2014B.json",
+      "bytes": 638580,
+      "sha256": "3a273ea6a15d73a13ffceb7f1c986500eceaf8ee86c7ba46e44ddcf2b4219217"
+    },
+    {
+      "path": "results/run_artifacts/u11_s5_run_main/results_FFF_2014J.json",
+      "bytes": 646704,
+      "sha256": "c71f76ea5cc8664e3b431b7355be1bbc033e04e3d5c15a8c796381067da56494"
+    },
+    {
+      "path": "results/run_artifacts/u11_s5_run_main/results_GGG_2013J.json",
+      "bytes": 645088,
+      "sha256": "6cdb6e414e99945d3257f6c3f1a60b50a92c28789b5e5a106131b09d3dc21275"
+    },
+    {
+      "path": "results/run_artifacts/u11_s5_run_main/results_GGG_2014B.json",
+      "bytes": 645961,
+      "sha256": "4745265ea7cc9a36ce1eef858414b64b47872ec86d3873c33b31df94263aa26a"
+    },
+    {
+      "path": "results/run_artifacts/u11_s5_run_main/results_GGG_2014J.json",
+      "bytes": 647952,
+      "sha256": "aeec16008f4377b2ecbf79852d5931c45988e8da6fb835fdd4ca4519c4e994b7"
+    },
+    {
+      "path": "results/run_artifacts/u11_s5_run_main/results_summary.json",
+      "bytes": 22419,
+      "sha256": "05efe3fed6feb9d3e715935044cbd9c421ca12992003cdc4ad4cdff0a468f310"
+    },
+    {
+      "path": "results/run_artifacts/u11_s5_run_main/run_manifest.json",
+      "bytes": 1625,
+      "sha256": "78f324d7eb5bacc0d895f2f224021f1b7ba3c1a02cfab9eb9e808d57957208f8"
+    },
+    {
+      "path": "results/run_artifacts/u11_s5_run_main/run_summary.json",
+      "bytes": 1687,
+      "sha256": "c1e69e7d82c900e23713c12cfcceb0557429d19283ffcdaacdbd515eba9c98a2"
+    }
+  ],
+  "n_artifacts": 48,
+  "no_process_remaining_verified": true
+}

@@ -1,0 +1,223 @@
+{
+  "schema_version": 1,
+  "frozen_at": "2026-09-20T12:23:28Z",
+  "project_root": "D:/Work/Projects/AutoResearch/data/projects/e_learning_thesis",
+  "repository": "D:/Work/Projects/AutoResearch",
+  "inputs": [
+    {
+      "path": "src/reasearch_topic/Research Proposal E-Learning Recommendation System Based on User Behavior Analysis.docx",
+      "kind": "proposal",
+      "bytes": 77351,
+      "sha256": "beeee68e70e169b3429df5d6e2d55ee46d82384d5f803d732f18d263d84072cd",
+      "note": "approved MSc proposal, the frame the committee checks against"
+    },
+    {
+      "path": "src/reasearch_topic/References/A HYBRID COLLABORATIVE RECOMMENDER SYSTEM.pdf",
+      "kind": "reference_pdf",
+      "bytes": 2592055,
+      "sha256": "444779e74711a996cf32fce76aa4a68ed80dd37ce38eb232c70b17b8c2c6ab1d",
+      "note": "one of the nine reviewed papers, read-only"
+    },
+    {
+      "path": "src/reasearch_topic/References/A Hybrid Recommender System Based on.pdf",
+      "kind": "reference_pdf",
+      "bytes": 2416923,
+      "sha256": "38650bf051cbaa9519be3a6eb410577d02685637278dee442faf2183ca158e01",
+      "note": "one of the nine reviewed papers, read-only"
+    },
+    {
+      "path": "src/reasearch_topic/References/A Hybrid Recommender System for an E-learning System2016.pdf",
+      "kind": "reference_pdf",
+      "bytes": 543599,
+      "sha256": "03d2cbce911afcda3a306602874003447bcc2ee3d78887b1f20d3fdf5589e089",
+      "note": "one of the nine reviewed papers, read-only"
+    },
+    {
+      "path": "src/reasearch_topic/References/An_Adaptive_Mechanism_for_Recommendation_Algorithm.pdf",
+      "kind": "reference_pdf",
+      "bytes": 1103154,
+      "sha256": "758fdc7c9c8ec80ccf4a5dfb5a5514bad6c7269ecd50e20ceb5e4364988ae89c",
+      "note": "one of the nine reviewed papers, read-only"
+    },
+    {
+      "path": "src/reasearch_topic/References/E-Learning Recommender System for Learners A Machine Learning based Approach.pdf",
+      "kind": "reference_pdf",
+      "bytes": 604477,
+      "sha256": "9d0120d086ba98c873895225f67de055d871c0b42c39f9e4c1151d013a1c9061",
+      "note": "one of the nine reviewed papers, read-only"
+    },
+    {
+      "path": "src/reasearch_topic/References/Online Behavior Analysis-Based Student Profile for Intelligent E-Learning.pdf",
+      "kind": "reference_pdf",
+      "bytes": 1689158,
+      "sha256": "7c2fe17b33c32fbfe11c721e0fc7fa683b0226fb5fe62e25436ac74ae0e82020",
+      "note": "one of the nine reviewed papers, read-only"
+    },
+    {
+      "path": "src/reasearch_topic/References/Online Course Recommendation Using Deep Convolutional.pdf",
+      "kind": "reference_pdf",
+      "bytes": 841999,
+      "sha256": "4a8ce0dd4fb9d48e76e147b0782d75c6e6acdae72efebe0b3acb147e215420d1",
+      "note": "one of the nine reviewed papers, read-only"
+    },
+    {
+      "path": "src/reasearch_topic/References/Session based Song Recommendation Using.pdf",
+      "kind": "reference_pdf",
+      "bytes": 411275,
+      "sha256": "66379ddabc1360911d6ad840a3223582a4a1732cb611dea2fe845abc705a58f6",
+      "note": "one of the nine reviewed papers, read-only"
+    },
+    {
+      "path": "src/reasearch_topic/References/User_Interaction_Based_Recommender_System_Using_Ma.pdf",
+      "kind": "reference_pdf",
+      "bytes": 1022625,
+      "sha256": "44864b794c7cd818160308771dc9fd30edaf2fd37ec5015ef1e052e890efe3d4",
+      "note": "one of the nine reviewed papers, read-only"
+    },
+    {
+      "path": "knowledge_base/e_learning_recommendation.md",
+      "kind": "knowledge_direction",
+      "bytes": 12301,
+      "sha256": "7a6ddd9c4c457dc874b098659dec8e4c88c3264feb0341593789122d1116e797",
+      "note": "baselines with DOIs, supplementary sources, documented pitfalls"
+    },
+    {
+      "path": "data/ideas/e_learning_recommendation_system.txt",
+      "kind": "idea_source",
+      "bytes": 4506,
+      "sha256": "8be52b93fc723207d876ea7d17654fc5102fb27e502db0eb5521864f15bc1b43",
+      "note": "hypothesis, four success criteria, OULAD decision, constraints"
+    },
+    {
+      "path": ".claude/skills/thesis-agent-skill-builder/references/thesis-standards.md",
+      "kind": "standards",
+      "bytes": 49596,
+      "sha256": "8c0828bd8b766f0bb77338617a7d22306736ca461ffe0bc1f682c9fd90923597",
+      "note": "snapshot of the standards document, revision 14"
+    },
+    {
+      "path": "data/projects/e_learning_pilot/results/summary.md",
+      "kind": "prior_evidence",
+      "bytes": 8931,
+      "sha256": "a2a74df14ebed1a3b8bf14d07f1dcb067a3819019f2bcd0e78ecda4c5f6b129e",
+      "note": "phase 1 pilot, carried in read-only; no receipts, so not a completed unit"
+    },
+    {
+      "path": "data/projects/e_learning_pilot/results/pilot_metrics.json",
+      "kind": "prior_evidence",
+      "bytes": 1491,
+      "sha256": "b62a9411d9964cc0cca668b6fb72c54890710de713f0941443ce7e88cb345862",
+      "note": "phase 1 pilot, carried in read-only; no receipts, so not a completed unit"
+    },
+    {
+      "path": "data/projects/e_learning_pilot/results/all_modules_metrics.json",
+      "kind": "prior_evidence",
+      "bytes": 29684,
+      "sha256": "9cc04aa6a420b7c6ce5d04b1040c61ab6edd25acd25a56d1e0a7741342795969",
+      "note": "phase 1 pilot, carried in read-only; no receipts, so not a completed unit"
+    },
+    {
+      "path": "data/projects/e_learning_pilot/results/pilot_metrics_iteration1.json",
+      "kind": "prior_evidence",
+      "bytes": 1487,
+      "sha256": "971882510448bc89759940f623c17670b4176ee2a2b9cfa1957cf7c2ab2d7e80",
+      "note": "phase 1 pilot, carried in read-only; no receipts, so not a completed unit"
+    },
+    {
+      "path": "data/projects/e_learning_pilot/results/all_modules_metrics_before_weekfix.json",
+      "kind": "prior_evidence",
+      "bytes": 29618,
+      "sha256": "9bf4823af63ad8d67f6a057d182d689e77bd68af592dd8bdafb03e43c742bda8",
+      "note": "phase 1 pilot, carried in read-only; no receipts, so not a completed unit"
+    },
+    {
+      "path": "data/projects/e_learning_pilot/code/pilot_recommender.py",
+      "kind": "prior_evidence",
+      "bytes": 10551,
+      "sha256": "c41adc0bb2de3ce16e6bc34c9b5ec1289506cf9541645d8c80b4e74e03022e4c",
+      "note": "phase 1 pilot, carried in read-only; no receipts, so not a completed unit"
+    },
+    {
+      "path": "data/projects/e_learning_pilot/code/pilot_all_modules.py",
+      "kind": "prior_evidence",
+      "bytes": 5169,
+      "sha256": "30104066f614e240c1cebd6bc3c6e4468983dcedce4f895723ce8be6908b10e3",
+      "note": "phase 1 pilot, carried in read-only; no receipts, so not a completed unit"
+    },
+    {
+      "path": "data/projects/e_learning_pilot/plan.md",
+      "kind": "prior_evidence",
+      "bytes": 2802,
+      "sha256": "e33bf23dc8a96cffa4c0af480d90cc3826300e1b22aace4ba210ff97391b234e",
+      "note": "phase 1 pilot, carried in read-only; no receipts, so not a completed unit"
+    },
+    {
+      "path": "data/projects/e_learning_pilot/data/raw/studentInfo.csv",
+      "kind": "dataset",
+      "bytes": 3462763,
+      "sha256": "815fbc3e2de29f79900bc63f0345a35db62c9146afaa1d86e7107b8b3beffc60",
+      "note": "OULAD table already downloaded for the pilot"
+    },
+    {
+      "path": "data/projects/e_learning_pilot/data/raw/studentVle.csv",
+      "kind": "dataset",
+      "bytes": 453836331,
+      "sha256": "52668253d876c5becbcb72185977152700cecab2942aca807fecc3dd54b937f0",
+      "note": "OULAD table already downloaded for the pilot"
+    },
+    {
+      "path": "data/projects/e_learning_pilot/data/raw/vle.csv",
+      "kind": "dataset",
+      "bytes": 270612,
+      "sha256": "d7a146497edd0e47ef536144b58796c07b554002d3753e848b8e4cd8a56f4c38",
+      "note": "OULAD table already downloaded for the pilot"
+    },
+    {
+      "path": "data/projects/e_learning_pilot/data/raw/courses.csv",
+      "kind": "dataset",
+      "bytes": 526,
+      "sha256": "4f16eee7454b15e109b0a21a0e43be820e6846ed6f9301bb7feb5ab5ad737a75",
+      "note": "OULAD table already downloaded for the pilot"
+    },
+    {
+      "path": "data/projects/e_learning_pilot/data/raw/studentRegistration.csv",
+      "kind": "dataset",
+      "bytes": 1132550,
+      "sha256": "bbc87a0de1fe2a9ec6decce1ca6c1a02cf17b54ad3bdcc673fc6413b41c61d47",
+      "note": "OULAD table already downloaded for the pilot"
+    },
+    {
+      "path": "data/projects/e_learning_pilot/data/raw/assessments.csv",
+      "kind": "dataset",
+      "bytes": 8211,
+      "sha256": "9ce92381e4a0ac457f8e251b2eb2c179ed51e023ab30d1d671a0268bd62316ba",
+      "note": "OULAD table already downloaded for the pilot"
+    },
+    {
+      "path": "data/projects/e_learning_pilot/data/raw/studentAssessment.csv",
+      "kind": "dataset",
+      "bytes": 5690483,
+      "sha256": "b1839e17618a5de36b6d189a242d3123f7939a56c8c9ccef0c17b9199c614a6b",
+      "note": "OULAD table already downloaded for the pilot"
+    },
+    {
+      "path": "data/projects/e_learning_pilot/data/raw/OULAD.names",
+      "kind": "dataset",
+      "bytes": 12278,
+      "sha256": "e497bc5232f385ece30a7e964b0339bd9b74ba9b9083508b66628fed9dc23ebe",
+      "note": "OULAD table already downloaded for the pilot"
+    }
+  ],
+  "missing_inputs": [
+    {
+      "item": "university thesis regulations",
+      "why_needed": "format, language, citation style, defense rules",
+      "owner": "human candidate"
+    },
+    {
+      "item": "OULAD licence text",
+      "why_needed": "chapter 3 must quote the licence it was used under",
+      "owner": "human candidate or methodologist with network access"
+    }
+  ]
+}

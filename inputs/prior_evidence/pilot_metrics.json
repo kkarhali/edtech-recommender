@@ -1,0 +1,54 @@
+{
+  "dataset": "OULAD",
+  "module_presentation": "EEE_2014J",
+  "n_raw_interaction_rows": 402947,
+  "n_items": 115,
+  "n_eval_users": 1049,
+  "elapsed_seconds": 29.3,
+  "hardware": "single CPU (no GPU used)",
+  "warm": {
+    "cbf": {
+      "precision_at_10": 0.11820781696854146,
+      "n_users": 1049,
+      "distinct_items_recommended": 80
+    },
+    "cf": {
+      "precision_at_10": 0.5351763584366063,
+      "n_users": 1049,
+      "distinct_items_recommended": 60
+    },
+    "hybrid": {
+      "precision_at_10": 0.5207816968541468,
+      "n_users": 1049,
+      "distinct_items_recommended": 65
+    }
+  },
+  "cold_start": {
+    "cbf": {
+      "precision_at_10": 0.10066730219256434,
+      "n_users": 1049,
+      "distinct_items_recommended": 83
+    },
+    "cf": {
+      "precision_at_10": 0.16101048617731176,
+      "n_users": 1049,
+      "distinct_items_recommended": 89
+    },
+    "hybrid": {
+      "precision_at_10": 0.14022878932316493,
+      "n_users": 1049,
+      "distinct_items_recommended": 106
+    }
+  },
+  "criterion_1_hybrid_vs_baselines_warm": {
+    "hybrid_vs_cbf_relative_gain": 3.4056451612903227,
+    "hybrid_vs_cf_relative_gain": -0.026897043106519445,
+    "target_relative_gain": 0.1
+  },
+  "criterion_2_cold_start_hybrid_vs_cbf": {
+    "hybrid_precision_at_10": 0.14022878932316493,
+    "cbf_precision_at_10": 0.10066730219256434,
+    "meets_or_exceeds_cbf": true,
+    "hybrid_distinct_items_recommended": 106
+  }
+}

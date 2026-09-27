@@ -1,0 +1,321 @@
+{
+  "schema_version": 1,
+  "unit": "u13d_diag_run",
+  "cycle": 1,
+  "stage": "diagnostics",
+  "status": "completed",
+  "decides_no_criterion": true,
+  "command_line": "'D:\\Work\\Projects\\AutoResearch\\.venv-pilot\\Scripts\\python.exe' code/main.py --stage diagnostics --artifact-dir results/run_artifacts/u13d_diag_run --run-log results/run.log",
+  "argv": [
+    "code/main.py",
+    "--stage",
+    "diagnostics",
+    "--artifact-dir",
+    "results/run_artifacts/u13d_diag_run",
+    "--run-log",
+    "results/run.log"
+  ],
+  "interpreter": "D:\\Work\\Projects\\AutoResearch\\.venv-pilot\\Scripts\\python.exe",
+  "code_tree_sha256": "5a8f935a8dd05bb2b8428966ae9794a2cfe1bf6b7573b5005698bad267691b21",
+  "code_tree_sha256_main_run_g4_approved": "694c3ea6026939967a6b01ab0698ef7336e77a8dd29f0739157e9f9662b0231c",
+  "code_tree_sha256_differs_from_main_run": true,
+  "code_tree_difference_note": "W1: the tree differs from the main run's by exactly the diagnostics addition. Files with mtime later than the main run's last artifact (2026-09-22 12:52 local): code/models.py, code/blend.py, code/diagnostics.py (new), code/main.py, code/README.md (all 2026-09-22 16:37-16:40 local). All other files under code/ predate the main run. config_sha256 unchanged. code/ is untracked in git and no pre-change copy exists, so the old hash was not recomputed; it is the value in the main manifest.",
+  "changed_files_mtime_after_main_run": [
+    "code/models.py",
+    "code/blend.py",
+    "code/diagnostics.py",
+    "code/main.py",
+    "code/README.md"
+  ],
+  "config_sha256": "bf2b77c0a85c58f577b132ac755466a23733f8eb3a5b75f4c967d1c42d6a9409",
+  "seed": 42,
+  "random_seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "started_at": "2026-09-24T04:35:28Z",
+  "finished_at": "2026-09-24T04:43:56Z",
+  "exit_code": 0,
+  "wall_clock_seconds": 507.89,
+  "process_cpu_seconds": 508.86,
+  "child_worker_wall_seconds": 0.0,
+  "cpu_hours": 0.14134982638888888,
+  "hardware": "Intel64 Family 6 Model 158 Stepping 13, GenuineIntel, 12 logical cores, no GPU",
+  "python": "3.12.3",
+  "library_versions": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "scikit_learn": "1.9.1",
+    "scipy": "1.18.1"
+  },
+  "run_log_path": "results/run.log",
+  "run_log_before_sha256": "d547e943a8e02b9fcc26c807b6072f6fafd4bf1e3ca873815de65bda615c0eac",
+  "run_log_before_bytes": 10257030,
+  "run_log_after_sha256": "5068dad91db95d600083fd271ce7a4adae8343a747d49c0090061f176b82ac12",
+  "run_log_after_bytes": 10274521,
+  "run_log_note": "W2: results/run.log is shared and append-only. The main receipt's run_log_after_sha256 (d547e943...) is a PREFIX hash covering only the first 10,257,030 bytes; the first 10,257,030 bytes of the file today still hash to that value (verified), so a whole-file re-hash of the main run's log will not equal it and that is expected, not a failed receipt.",
+  "main_run_log_prefix_intact": true,
+  "attempt_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "attempt_note": "main.py wrote nothing to stdout/stderr; all output goes to run.log and the artifact directory. attempt_sha256 is the SHA256 of that empty capture.",
+  "execution_event_hash": "b655a5de6b6e84d9ad4e977c14aaa08d296adc5242fa658f3cdd49c016d34985",
+  "execution_event_hash_note": "hand-computed per thesis-experiment-runner SKILL.md step 10 (deviations D1, D2): SHA256 of canonical JSON {unit,cycle,stage,argv,started_at,finished_at,exit_code,run_log_before_sha256,run_log_after_sha256,attempt_sha256} in that key order.",
+  "w5_inertness_check": {
+    "compared": "production Hybrid warm|None and A|2 metrics in ablation_<pres>.json vs results_<pres>.json (splits.primary.cells) of u11_s5_run_main",
+    "presentations": 22,
+    "cells": 44,
+    "differences": 0,
+    "max_abs_difference": 0.0,
+    "result": "exact agreement"
+  },
+  "post_hoc_disclosure": "W3: this stage scores the test split a second time for the production Hybrid outside the L6 counter; its numbers are post-hoc looks and may not revise any criterion, threshold or model.",
+  "criteria": {
+    "C1": "unchecked",
+    "C2": "unchecked",
+    "C3": "unchecked",
+    "C4": "unchecked",
+    "C5": "unchecked",
+    "C6": "unchecked"
+  },
+  "artifacts": [
+    {
+      "path": "results/run_artifacts/u13d_diag_run/ablation_AAA_2013J.json",
+      "bytes": 6204,
+      "sha256": "716ac26479a791bb480115f75a45dd00c11f5760e59b318259d6cde8f4c69740"
+    },
+    {
+      "path": "results/run_artifacts/u13d_diag_run/ablation_AAA_2014J.json",
+      "bytes": 6213,
+      "sha256": "53472de7a4e44ebf2208507415a52dc8ece196ac1c496a8ca9aef4fcf2316a01"
+    },
+    {
+      "path": "results/run_artifacts/u13d_diag_run/ablation_BBB_2013B.json",
+      "bytes": 6333,
+      "sha256": "8842e203dea413d4c9ebb9744d17ced646ee443aa7fa3a5aa44ff6fc785cbf0e"
+    },
+    {
+      "path": "results/run_artifacts/u13d_diag_run/ablation_BBB_2013J.json",
+      "bytes": 6147,
+      "sha256": "01a67a96200dfb8cb921249240fe3dac17673fa34f80d7ebcd49c1a6222fb774"
+    },
+    {
+      "path": "results/run_artifacts/u13d_diag_run/ablation_BBB_2014B.json",
+      "bytes": 6193,
+      "sha256": "f3036ee97368432c90935c92e25293d74d0cd8679dbe95c495161185321c8a43"
+    },
+    {
+      "path": "results/run_artifacts/u13d_diag_run/ablation_BBB_2014J.json",
+      "bytes": 6189,
+      "sha256": "b777e849c2350c27929b7b023bc91f9a1750ae23f63c1c6aeb97aa36abdd01e0"
+    },
+    {
+      "path": "results/run_artifacts/u13d_diag_run/ablation_CCC_2014B.json",
+      "bytes": 6178,
+      "sha256": "a4857b60b30ae25613127240bd9c0d3ffdaf0261654625c73e5dd213fb09cfc7"
+    },
+    {
+      "path": "results/run_artifacts/u13d_diag_run/ablation_CCC_2014J.json",
+      "bytes": 6317,
+      "sha256": "8e9a8454efd1c3d90f44f252cf6a5231df13fa1a174e91f617aace8f10c78973"
+    },
+    {
+      "path": "results/run_artifacts/u13d_diag_run/ablation_DDD_2013B.json",
+      "bytes": 6161,
+      "sha256": "21646a8c1260a884e2ae8aa4d8250462f814193341df2a12318fae1f620380c1"
+    },
+    {
+      "path": "results/run_artifacts/u13d_diag_run/ablation_DDD_2013J.json",
+      "bytes": 6279,
+      "sha256": "cb4eadfc4ea02b092ad901cbbb943b08d03dc5b1237162428f8aaa709666c535"
+    },
+    {
+      "path": "results/run_artifacts/u13d_diag_run/ablation_DDD_2014B.json",
+      "bytes": 6171,
+      "sha256": "9be6eb76639877d0034b7e3e872c539a8ac66ec9a14a293ad5ea99d444efbaa4"
+    },
+    {
+      "path": "results/run_artifacts/u13d_diag_run/ablation_DDD_2014J.json",
+      "bytes": 6267,
+      "sha256": "f884bd2df63bb9ba9c5dcab80b44d3eb4af485321a7ff9f17425e3b15f2bc33e"
+    },
+    {
+      "path": "results/run_artifacts/u13d_diag_run/ablation_EEE_2013J.json",
+      "bytes": 6144,
+      "sha256": "137abf5f28e37b22b4d1d940ca416d791119643a6d59702aae1327288995847d"
+    },
+    {
+      "path": "results/run_artifacts/u13d_diag_run/ablation_EEE_2014B.json",
+      "bytes": 6236,
+      "sha256": "f3622dc739227da687723231874ece7e2a8e8fb7edcf047132b14f6a10d104e2"
+    },
+    {
+      "path": "results/run_artifacts/u13d_diag_run/ablation_EEE_2014J.json",
+      "bytes": 6125,
+      "sha256": "5d39e37a73071a74c9c7ed371216059a2ae482b0584e051774c50aa5e8273f1a"
+    },
+    {
+      "path": "results/run_artifacts/u13d_diag_run/ablation_FFF_2013B.json",
+      "bytes": 6322,
+      "sha256": "8f4eb64cf9de65154f8070d0ab375230d3145d8f8881e6d95952c7831281dcad"
+    },
+    {
+      "path": "results/run_artifacts/u13d_diag_run/ablation_FFF_2013J.json",
+      "bytes": 6270,
+      "sha256": "a318ac066e15c3660ac7971cfa3a02060242296be4b152f89e2d801e9dfb5867"
+    },
+    {
+      "path": "results/run_artifacts/u13d_diag_run/ablation_FFF_2014B.json",
+      "bytes": 6084,
+      "sha256": "e139f8445149eb23651a8ea9b88b503a21c7928a7b5db6831ba4d84b79259e0e"
+    },
+    {
+      "path": "results/run_artifacts/u13d_diag_run/ablation_FFF_2014J.json",
+      "bytes": 6149,
+      "sha256": "0642f607fc5eccfc4169903ba80eabc4ac55f8efd583dfa1ddd4accb737b1632"
+    },
+    {
+      "path": "results/run_artifacts/u13d_diag_run/ablation_GGG_2013J.json",
+      "bytes": 6217,
+      "sha256": "27e1942133f9e2f50ee8af360ab279080a68f68c5e1a828d2daeaa47ab930d55"
+    },
+    {
+      "path": "results/run_artifacts/u13d_diag_run/ablation_GGG_2014B.json",
+      "bytes": 6122,
+      "sha256": "15e197506560b6b451e9b2317363407c3c6adf7a191458a9d919d200a7f4672d"
+    },
+    {
+      "path": "results/run_artifacts/u13d_diag_run/ablation_GGG_2014J.json",
+      "bytes": 6241,
+      "sha256": "ee61220974e17a30c8864441a87678cc7f76b516c8adee198bec3ff9a6b41be0"
+    },
+    {
+      "path": "results/run_artifacts/u13d_diag_run/alpha_log_AAA_2013J.jsonl",
+      "bytes": 6820,
+      "sha256": "66f2b43dcfaaf149b48158a397bb8430c9694f2d0a6c44cfc6ecdf380961109e"
+    },
+    {
+      "path": "results/run_artifacts/u13d_diag_run/alpha_log_AAA_2014J.jsonl",
+      "bytes": 6257,
+      "sha256": "c80429bda7938ff6b3c6d4cf1f58ff9d2a5c1d0b3b39983678fc59b4637476fb"
+    },
+    {
+      "path": "results/run_artifacts/u13d_diag_run/alpha_log_BBB_2013B.jsonl",
+      "bytes": 25283,
+      "sha256": "d17fd4fc318d9f6895a381891b9675ca35c5aa5ad5bdf575f1593cd09b19a7e5"
+    },
+    {
+      "path": "results/run_artifacts/u13d_diag_run/alpha_log_BBB_2013J.jsonl",
+      "bytes": 30625,
+      "sha256": "7c23f31550cf119cba61c4577e55f2bd212f9fa2fce2e2dfff5f0fb2fb146ce8"
+    },
+    {
+      "path": "results/run_artifacts/u13d_diag_run/alpha_log_BBB_2014B.jsonl",
+      "bytes": 20980,
+      "sha256": "4cd09731e98e620ed0b12a0fbfd92c1ba8ede15f53ede32bda3c2ea2db4a21a4"
+    },
+    {
+      "path": "results/run_artifacts/u13d_diag_run/alpha_log_BBB_2014J.jsonl",
+      "bytes": 32110,
+      "sha256": "80ddc69c578e4c23894574fa3feea097d78b56bd86af936a3a90597db4b78b9c"
+    },
+    {
+      "path": "results/run_artifacts/u13d_diag_run/alpha_log_CCC_2014B.jsonl",
+      "bytes": 28023,
+      "sha256": "8b567f73bedecd2e1ad0c9bc16d5a9fda85f6e75d7ac31d0116c7fed54da6a73"
+    },
+    {
+      "path": "results/run_artifacts/u13d_diag_run/alpha_log_CCC_2014J.jsonl",
+      "bytes": 38353,
+      "sha256": "c126b103cc688cc64085772b074397d82e4768c52e9cc199e6ef50165bdedb29"
+    },
+    {
+      "path": "results/run_artifacts/u13d_diag_run/alpha_log_DDD_2013B.jsonl",
+      "bytes": 20708,
+      "sha256": "15419113b732f106208283a7ad2e9d509d478728484c7150f674abcdf733b84d"
+    },
+    {
+      "path": "results/run_artifacts/u13d_diag_run/alpha_log_DDD_2013J.jsonl",
+      "bytes": 29924,
+      "sha256": "e5fe0821aee998987f2e1db1d0b7ca51585b2567b4cd8fe8fa7b00f62398c285"
+    },
+    {
+      "path": "results/run_artifacts/u13d_diag_run/alpha_log_DDD_2014B.jsonl",
+      "bytes": 18800,
+      "sha256": "354abaebe7179f6fa02312349feeec3778f4011959a31b73116e413de112cf2e"
+    },
+    {
+      "path": "results/run_artifacts/u13d_diag_run/alpha_log_DDD_2014J.jsonl",
+      "bytes": 27532,
+      "sha256": "01275be372a0d9c3514ef7a33c2fac270b6b4163cc5dc6b0ebd1f4d6a5131ac8"
+    },
+    {
+      "path": "results/run_artifacts/u13d_diag_run/alpha_log_EEE_2013J.jsonl",
+      "bytes": 16214,
+      "sha256": "97c6ce4148f1f6a56667f882e3d905cec760c5679078a23d007e7bb7b6a0f29a"
+    },
+    {
+      "path": "results/run_artifacts/u13d_diag_run/alpha_log_EEE_2014B.jsonl",
+      "bytes": 10550,
+      "sha256": "a404061f19ccbfff190fea2c0f6f7a77fb63295e56c4f3e39569fab9665f2415"
+    },
+    {
+      "path": "results/run_artifacts/u13d_diag_run/alpha_log_EEE_2014J.jsonl",
+      "bytes": 18355,
+      "sha256": "20911d3676765cc6c810d53926d62f3083b10217af4e51432c4bd30f2b813bcb"
+    },
+    {
+      "path": "results/run_artifacts/u13d_diag_run/alpha_log_FFF_2013B.jsonl",
+      "bytes": 26470,
+      "sha256": "c8709a737cffc30103d50371997d9343d2a74087fbe51c3066822d54b4f5522c"
+    },
+    {
+      "path": "results/run_artifacts/u13d_diag_run/alpha_log_FFF_2013J.jsonl",
+      "bytes": 36028,
+      "sha256": "486ad16cd605ece50c27f24fa1f03701dbfca0ce0eba57114a82d77bba048392"
+    },
+    {
+      "path": "results/run_artifacts/u13d_diag_run/alpha_log_FFF_2014B.jsonl",
+      "bytes": 23070,
+      "sha256": "7c94186cb5c0cb5f1400c16331b4c7d1fac4ad42fdf467345a22ea39aaf6063d"
+    },
+    {
+      "path": "results/run_artifacts/u13d_diag_run/alpha_log_FFF_2014J.jsonl",
+      "bytes": 35809,
+      "sha256": "5e520d6d1cbc192aab26fe6ade51c8694da1a9fce84dac0297802ede8fe2306c"
+    },
+    {
+      "path": "results/run_artifacts/u13d_diag_run/alpha_log_GGG_2013J.jsonl",
+      "bytes": 15047,
+      "sha256": "476d311a7cb72eccf1affc822000733b0ec708d4ef996961c1341ab9813ea49f"
+    },
+    {
+      "path": "results/run_artifacts/u13d_diag_run/alpha_log_GGG_2014B.jsonl",
+      "bytes": 12739,
+      "sha256": "20bbba7c57431e19dc451783eb8f624f1ecada9625d2852c61149b75bf1ceea4"
+    },
+    {
+      "path": "results/run_artifacts/u13d_diag_run/alpha_log_GGG_2014J.jsonl",
+      "bytes": 11484,
+      "sha256": "08cbbe8236acefe8f9809ff49b560ee5d3bb584c6fcfdc8eb122ea27d60e6c2e"
+    },
+    {
+      "path": "results/run_artifacts/u13d_diag_run/criteria_verdicts.json",
+      "bytes": 3733,
+      "sha256": "dce4a1774ead859402080604b9a656299389c663a25a4f496cc822f22fbf2925"
+    },
+    {
+      "path": "results/run_artifacts/u13d_diag_run/run_manifest.json",
+      "bytes": 1638,
+      "sha256": "2052a19a390babd5be37e491bd309ca6dadcf80b02408a86a4ed26fc73a7faac"
+    },
+    {
+      "path": "results/run_artifacts/u13d_diag_run/run_summary.json",
+      "bytes": 703,
+      "sha256": "a029ff96d79870834bd864b03e45825267e2ca35d10ca000b674bf2e851e3795"
+    }
+  ],
+  "n_artifacts": 47,
+  "no_process_remaining_verified": true
+}

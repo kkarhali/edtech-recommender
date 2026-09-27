@@ -1,0 +1,58 @@
+{
+  "C1": {
+    "metric": "Precision@10 relative gain, hybrid vs. content-based-only AND hybrid vs. collaborative-only, warm-user held-out slice",
+    "threshold": ">= +0.10 relative against BOTH baselines, median over the 22 module-presentations, AND paired Wilcoxon signed-rank p < 0.05 after Holm correction for both comparisons",
+    "on_dataset": "OULAD, all 22 module-presentations, time-based split, identical splits for all four models",
+    "verdict": "unchecked",
+    "reason": "not decided by this stage",
+    "values": {}
+  },
+  "C2": {
+    "metric": "Precision@10 relative gain, hybrid vs. collaborative-only AND hybrid vs. content-based-only, cold-start slice built by refitting the similarity model without the held-out learners",
+    "threshold": "> 0 relative against BOTH baselines, median over the 22 module-presentations, AND paired Wilcoxon signed-rank p < 0.05 after Holm correction for both comparisons",
+    "on_dataset": "OULAD, all 22 module-presentations, cold-start-refit condition, identical splits for all four models",
+    "verdict": "unchecked",
+    "reason": "not decided by this stage",
+    "values": {}
+  },
+  "C3": {
+    "metric": "Cold-start Precision@10, hybrid vs. content-based-only and vs. a global-popularity baseline; non-degeneracy of the hybrid's top-10 lists",
+    "threshold": ">= content-based-only Precision@10 AND > popularity-baseline Precision@10 AND == 0 empty top-10 lists AND >= 10% of available items appearing across the slice's top-10 lists, in each of the 22 module-presentations",
+    "on_dataset": "OULAD, all 22 module-presentations, cold-start-refit condition",
+    "verdict": "unchecked",
+    "reason": "not decided by this stage",
+    "values": {}
+  },
+  "C4": {
+    "metric": "Tuning-on-test leakage count: rows shared between the validation split and the test split, and hyperparameters (blend weight, K, similarity cut-off) fitted on any data other than the validation split",
+    "threshold": "== 0 shared rows AND == 0 hyperparameters fitted outside the validation split; the test split is scored exactly once per model per module-presentation",
+    "on_dataset": "OULAD, all 22 module-presentations",
+    "verdict": "unchecked",
+    "reason": "not decided by this stage",
+    "values": {}
+  },
+  "C5": {
+    "metric": "Wall-clock time and hardware for the phase 2 main run and for the phase 1 reproduction",
+    "threshold": "<= 4.0 CPU-hours total for the main run over all 22 module-presentations AND <= 15 minutes for the phase 1 reproduction, on a single CPU with no GPU and no downloaded model weights",
+    "on_dataset": "OULAD, all 22 module-presentations",
+    "verdict": "unchecked",
+    "reason": "main-run conjunct only; the reproduction conjunct is decided by the pilot-stage run",
+    "values": {
+      "wall_clock_seconds": 507.89,
+      "process_cpu_seconds": 508.86,
+      "child_worker_wall_seconds": 0.0,
+      "cpu_hours": 0.14134982638888888,
+      "hardware": "single CPU, no GPU",
+      "process": "single process plus one fresh-process worker for L7 (wall seconds counted as CPU, an upper bound)",
+      "n_presentations": 0
+    }
+  },
+  "C6": {
+    "metric": "Absolute difference between the reproduced phase 1 Precision@10 values and the recorded prior-evidence values, all three models, warm and cold-start, on EEE_2014J",
+    "threshold": "<= 1e-6 absolute for every one of the 6 values, with a run receipt carrying the SHA256 of the regenerated metrics file and the exact command line",
+    "on_dataset": "OULAD, module-presentation EEE_2014J, seed 42, deterministic selection rule",
+    "verdict": "unchecked",
+    "reason": "not decided by this stage",
+    "values": {}
+  }
+}

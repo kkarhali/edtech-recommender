@@ -1,0 +1,103 @@
+{
+  "pres": "CCC_2014B",
+  "counts": {
+    "n_rows": 496181,
+    "n_items": 196,
+    "n_pairs": 81619,
+    "in_log": 1681,
+    "drop_lt5": 71,
+    "drop_lt3days": 53,
+    "evaluated": 1557,
+    "registered": 1936,
+    "test_frac": 0.2009068669846055,
+    "val_frac": 0.11433442882206134
+  },
+  "split_sha256": {
+    "train": "871d0e342a4fc8e6d5685fb275e7846ff313a15a447bd88db7caca07119839ce",
+    "val": "c1ae6f657f81878b8eea790b102d7f3a698cf231a11c9204c5eecc90e3053388",
+    "test": "48db19e119ef3144ff5aa786ada4097e7d285e790fd4f66a9096e9db2a198275"
+  },
+  "cohort": {
+    "n": 311,
+    "quotas": [
+      62,
+      63,
+      62,
+      62,
+      62
+    ],
+    "sha256": "d2afd58fb901ad443ef01f613cffe14a2b9e9afda66c0c0e90c1fc92e1304702",
+    "robust_n": 311,
+    "robust_sha256": "60136269b9e710de6b8256f952e3aa8d08e2a31b4f7e067cc157b1d950dd60c7"
+  },
+  "feature_constants": {
+    "week_from_median": 3.0,
+    "week_to_median": 4.0,
+    "week_from_known": 5,
+    "week_to_known": 5,
+    "week_from_min_max": [
+      1.0,
+      8.0
+    ],
+    "week_to_min_max": [
+      2.0,
+      9.0
+    ],
+    "week_missing_share": 0.9744897959183674,
+    "n_learner_rows_used": 0,
+    "all_missing_columns": []
+  },
+  "item_feature_sha256": "d06d1622c4fa2fa5d43056847091d2e25673246ab63f441a3b89df22c2e22f0a",
+  "conditions": {
+    "warm|None": {
+      "n_row_learners": 1557,
+      "n_fit_learners": 1557,
+      "n_train_pairs_weighted": 55423
+    },
+    "A|0": {
+      "n_row_learners": 1246,
+      "n_fit_learners": 1246,
+      "n_train_pairs_weighted": 44343
+    },
+    "A|1": {
+      "n_row_learners": 1246,
+      "n_fit_learners": 1246,
+      "n_train_pairs_weighted": 44343
+    },
+    "A|2": {
+      "n_row_learners": 1246,
+      "n_fit_learners": 1246,
+      "n_train_pairs_weighted": 44343
+    },
+    "A|5": {
+      "n_row_learners": 1246,
+      "n_fit_learners": 1246,
+      "n_train_pairs_weighted": 44343
+    },
+    "A_robust|2": {
+      "n_row_learners": 1246,
+      "n_fit_learners": 1246,
+      "n_train_pairs_weighted": 47638
+    },
+    "B|0": {
+      "n_row_learners": 1557,
+      "n_fit_learners": 1557,
+      "n_train_pairs_weighted": 55423
+    },
+    "B|1": {
+      "n_row_learners": 1557,
+      "n_fit_learners": 1557,
+      "n_train_pairs_weighted": 55423
+    },
+    "B|2": {
+      "n_row_learners": 1557,
+      "n_fit_learners": 1557,
+      "n_train_pairs_weighted": 55423
+    },
+    "B|5": {
+      "n_row_learners": 1557,
+      "n_fit_learners": 1557,
+      "n_train_pairs_weighted": 55423
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "dataset": "OULAD",
+  "module_presentation": "EEE_2014J",
+  "n_raw_interaction_rows": 402947,
+  "n_items": 115,
+  "n_eval_users": 1049,
+  "hardware": "single CPU, no GPU",
+  "warm": {
+    "cbf": {
+      "precision_at_10": 0.11820781696854146,
+      "n_users": 1049,
+      "distinct_items_recommended": 80
+    },
+    "cf": {
+      "precision_at_10": 0.5351763584366063,
+      "n_users": 1049,
+      "distinct_items_recommended": 60
+    },
+    "hybrid": {
+      "precision_at_10": 0.5207816968541468,
+      "n_users": 1049,
+      "distinct_items_recommended": 65
+    }
+  },
+  "cold_start": {
+    "cbf": {
+      "precision_at_10": 0.10066730219256434,
+      "n_users": 1049,
+      "distinct_items_recommended": 83
+    },
+    "cf": {
+      "precision_at_10": 0.16101048617731176,
+      "n_users": 1049,
+      "distinct_items_recommended": 89
+    },
+    "hybrid": {
+      "precision_at_10": 0.14022878932316493,
+      "n_users": 1049,
+      "distinct_items_recommended": 106
+    }
+  },
+  "c6": {
+    "abs_diff_precision_at_10": {
+      "warm.cbf": 0.0,
+      "warm.cf": 0.0,
+      "warm.hybrid": 0.0,
+      "cold_start.cbf": 0.0,
+      "cold_start.cf": 0.0,
+      "cold_start.hybrid": 0.0
+    },
+    "max_abs_diff": 0.0,
+    "tolerance": 1e-06,
+    "other_fields_differing": 0
+  }
+}

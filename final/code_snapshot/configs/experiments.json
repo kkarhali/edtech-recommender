@@ -1,0 +1,13 @@
+{
+  "seed": 42,
+  "random_seeds": [42, 43, 44, 45, 46],
+  "raw_dir": "data/projects/e_learning_pilot/data/raw",
+  "ks": [0, 1, 2, 5],
+  "k_robust": 2,
+  "builder_modules": ["cell"],
+  "stages": {
+    "pilot": {"presentations": ["EEE_2014J"]},
+    "main": {"presentations": "all"},
+    "iteration": {"presentations": ["EEE_2014J"]}
+  }
+}

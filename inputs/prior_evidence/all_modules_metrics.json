@@ -1,0 +1,992 @@
+{
+  "aggregate": {
+    "n_module_presentations_total": 22,
+    "n_completed": 22,
+    "n_skipped": 0,
+    "criterion_1_pass_rate": 0.0,
+    "criterion_2_pass_rate": 1.0,
+    "hybrid_vs_cf_relative_gain_warm": {
+      "mean": -0.02566551440253795,
+      "median": -0.02661584509320957,
+      "min": -0.1082568807339449,
+      "max": 0.00905263157894747
+    },
+    "hybrid_vs_cbf_relative_gain_warm": {
+      "mean": 2.29785654687462,
+      "median": 1.895421025864574,
+      "min": 0.6004390779363338,
+      "max": 4.645465253239104
+    },
+    "elapsed_seconds": 140.1
+  },
+  "per_module_presentation": [
+    {
+      "module_presentation": "AAA_2013J",
+      "n_items": 211,
+      "n_eval_users": 377,
+      "n_raw_interaction_rows": 180982,
+      "warm": {
+        "cbf": {
+          "precision_at_10": 0.2838196286472149,
+          "n_users": 377,
+          "distinct_items_recommended": 76
+        },
+        "cf": {
+          "precision_at_10": 0.5511936339522546,
+          "n_users": 377,
+          "distinct_items_recommended": 75
+        },
+        "hybrid": {
+          "precision_at_10": 0.520159151193634,
+          "n_users": 377,
+          "distinct_items_recommended": 75
+        }
+      },
+      "cold_start": {
+        "cbf": {
+          "precision_at_10": 0.10371352785145889,
+          "n_users": 377,
+          "distinct_items_recommended": 61
+        },
+        "cf": {
+          "precision_at_10": 0.16127320954907162,
+          "n_users": 377,
+          "distinct_items_recommended": 128
+        },
+        "hybrid": {
+          "precision_at_10": 0.1450928381962865,
+          "n_users": 377,
+          "distinct_items_recommended": 151
+        }
+      },
+      "hybrid_vs_cf_relative_gain_warm": -0.05630413859480261,
+      "hybrid_vs_cbf_relative_gain_warm": 0.8327102803738317,
+      "criterion_1_met": false,
+      "criterion_2_met": true
+    },
+    {
+      "module_presentation": "AAA_2014J",
+      "n_items": 202,
+      "n_eval_users": 350,
+      "n_raw_interaction_rows": 169316,
+      "warm": {
+        "cbf": {
+          "precision_at_10": 0.2602857142857143,
+          "n_users": 350,
+          "distinct_items_recommended": 65
+        },
+        "cf": {
+          "precision_at_10": 0.46714285714285714,
+          "n_users": 350,
+          "distinct_items_recommended": 73
+        },
+        "hybrid": {
+          "precision_at_10": 0.4165714285714286,
+          "n_users": 350,
+          "distinct_items_recommended": 74
+        }
+      },
+      "cold_start": {
+        "cbf": {
+          "precision_at_10": 0.11600000000000002,
+          "n_users": 350,
+          "distinct_items_recommended": 59
+        },
+        "cf": {
+          "precision_at_10": 0.15342857142857144,
+          "n_users": 350,
+          "distinct_items_recommended": 114
+        },
+        "hybrid": {
+          "precision_at_10": 0.1317142857142857,
+          "n_users": 350,
+          "distinct_items_recommended": 139
+        }
+      },
+      "hybrid_vs_cf_relative_gain_warm": -0.1082568807339449,
+      "hybrid_vs_cbf_relative_gain_warm": 0.6004390779363338,
+      "criterion_1_met": false,
+      "criterion_2_met": true
+    },
+    {
+      "module_presentation": "BBB_2013B",
+      "n_items": 315,
+      "n_eval_users": 1479,
+      "n_raw_interaction_rows": 403266,
+      "warm": {
+        "cbf": {
+          "precision_at_10": 0.15030425963488844,
+          "n_users": 1479,
+          "distinct_items_recommended": 119
+        },
+        "cf": {
+          "precision_at_10": 0.37741717376605816,
+          "n_users": 1479,
+          "distinct_items_recommended": 64
+        },
+        "hybrid": {
+          "precision_at_10": 0.36747802569303584,
+          "n_users": 1479,
+          "distinct_items_recommended": 72
+        }
+      },
+      "cold_start": {
+        "cbf": {
+          "precision_at_10": 0.056795131845841784,
+          "n_users": 1479,
+          "distinct_items_recommended": 88
+        },
+        "cf": {
+          "precision_at_10": 0.1517917511832319,
+          "n_users": 1479,
+          "distinct_items_recommended": 215
+        },
+        "hybrid": {
+          "precision_at_10": 0.11372549019607844,
+          "n_users": 1479,
+          "distinct_items_recommended": 216
+        }
+      },
+      "hybrid_vs_cf_relative_gain_warm": -0.026334647079899694,
+      "hybrid_vs_cbf_relative_gain_warm": 1.44489428699955,
+      "criterion_1_met": false,
+      "criterion_2_met": true
+    },
+    {
+      "module_presentation": "BBB_2013J",
+      "n_items": 321,
+      "n_eval_users": 1788,
+      "n_raw_interaction_rows": 452638,
+      "warm": {
+        "cbf": {
+          "precision_at_10": 0.10855704697986579,
+          "n_users": 1788,
+          "distinct_items_recommended": 168
+        },
+        "cf": {
+          "precision_at_10": 0.3715883668903803,
+          "n_users": 1788,
+          "distinct_items_recommended": 76
+        },
+        "hybrid": {
+          "precision_at_10": 0.34888143176733777,
+          "n_users": 1788,
+          "distinct_items_recommended": 91
+        }
+      },
+      "cold_start": {
+        "cbf": {
+          "precision_at_10": 0.05699105145413871,
+          "n_users": 1788,
+          "distinct_items_recommended": 188
+        },
+        "cf": {
+          "precision_at_10": 0.15055928411633113,
+          "n_users": 1788,
+          "distinct_items_recommended": 211
+        },
+        "hybrid": {
+          "precision_at_10": 0.10671140939597316,
+          "n_users": 1788,
+          "distinct_items_recommended": 231
+        }
+      },
+      "hybrid_vs_cf_relative_gain_warm": -0.061107766405779654,
+      "hybrid_vs_cbf_relative_gain_warm": 2.2138073158165885,
+      "criterion_1_met": false,
+      "criterion_2_met": true
+    },
+    {
+      "module_presentation": "BBB_2014B",
+      "n_items": 311,
+      "n_eval_users": 1222,
+      "n_raw_interaction_rows": 273236,
+      "warm": {
+        "cbf": {
+          "precision_at_10": 0.12291325695581014,
+          "n_users": 1222,
+          "distinct_items_recommended": 157
+        },
+        "cf": {
+          "precision_at_10": 0.3539279869067103,
+          "n_users": 1222,
+          "distinct_items_recommended": 75
+        },
+        "hybrid": {
+          "precision_at_10": 0.3399345335515548,
+          "n_users": 1222,
+          "distinct_items_recommended": 87
+        }
+      },
+      "cold_start": {
+        "cbf": {
+          "precision_at_10": 0.058674304418985274,
+          "n_users": 1222,
+          "distinct_items_recommended": 179
+        },
+        "cf": {
+          "precision_at_10": 0.15008183306055647,
+          "n_users": 1222,
+          "distinct_items_recommended": 196
+        },
+        "hybrid": {
+          "precision_at_10": 0.10826513911620296,
+          "n_users": 1222,
+          "distinct_items_recommended": 203
+        }
+      },
+      "hybrid_vs_cf_relative_gain_warm": -0.039537572254335324,
+      "hybrid_vs_cbf_relative_gain_warm": 1.7656458055925432,
+      "criterion_1_met": false,
+      "criterion_2_met": true
+    },
+    {
+      "module_presentation": "BBB_2014J",
+      "n_items": 207,
+      "n_eval_users": 1858,
+      "n_raw_interaction_rows": 438424,
+      "warm": {
+        "cbf": {
+          "precision_at_10": 0.13347685683530677,
+          "n_users": 1858,
+          "distinct_items_recommended": 107
+        },
+        "cf": {
+          "precision_at_10": 0.4172766415500538,
+          "n_users": 1858,
+          "distinct_items_recommended": 83
+        },
+        "hybrid": {
+          "precision_at_10": 0.3952099031216361,
+          "n_users": 1858,
+          "distinct_items_recommended": 96
+        }
+      },
+      "cold_start": {
+        "cbf": {
+          "precision_at_10": 0.08821313240043058,
+          "n_users": 1858,
+          "distinct_items_recommended": 90
+        },
+        "cf": {
+          "precision_at_10": 0.15667384284176536,
+          "n_users": 1858,
+          "distinct_items_recommended": 151
+        },
+        "hybrid": {
+          "precision_at_10": 0.13100107642626482,
+          "n_users": 1858,
+          "distinct_items_recommended": 171
+        }
+      },
+      "hybrid_vs_cf_relative_gain_warm": -0.052882755062556464,
+      "hybrid_vs_cbf_relative_gain_warm": 1.9608870967741932,
+      "criterion_1_met": false,
+      "criterion_2_met": true
+    },
+    {
+      "module_presentation": "CCC_2014B",
+      "n_items": 196,
+      "n_eval_users": 1610,
+      "n_raw_interaction_rows": 496181,
+      "warm": {
+        "cbf": {
+          "precision_at_10": 0.1457142857142857,
+          "n_users": 1610,
+          "distinct_items_recommended": 121
+        },
+        "cf": {
+          "precision_at_10": 0.38850931677018635,
+          "n_users": 1610,
+          "distinct_items_recommended": 102
+        },
+        "hybrid": {
+          "precision_at_10": 0.3739751552795032,
+          "n_users": 1610,
+          "distinct_items_recommended": 107
+        }
+      },
+      "cold_start": {
+        "cbf": {
+          "precision_at_10": 0.07124223602484472,
+          "n_users": 1610,
+          "distinct_items_recommended": 80
+        },
+        "cf": {
+          "precision_at_10": 0.13788819875776398,
+          "n_users": 1610,
+          "distinct_items_recommended": 157
+        },
+        "hybrid": {
+          "precision_at_10": 0.10763975155279504,
+          "n_users": 1610,
+          "distinct_items_recommended": 169
+        }
+      },
+      "hybrid_vs_cf_relative_gain_warm": -0.03741007194244584,
+      "hybrid_vs_cbf_relative_gain_warm": 1.5664961636828652,
+      "criterion_1_met": false,
+      "criterion_2_met": true
+    },
+    {
+      "module_presentation": "CCC_2014J",
+      "n_items": 223,
+      "n_eval_users": 2196,
+      "n_raw_interaction_rows": 711646,
+      "warm": {
+        "cbf": {
+          "precision_at_10": 0.1627959927140255,
+          "n_users": 2196,
+          "distinct_items_recommended": 134
+        },
+        "cf": {
+          "precision_at_10": 0.3891165755919854,
+          "n_users": 2196,
+          "distinct_items_recommended": 105
+        },
+        "hybrid": {
+          "precision_at_10": 0.379280510018215,
+          "n_users": 2196,
+          "distinct_items_recommended": 119
+        }
+      },
+      "cold_start": {
+        "cbf": {
+          "precision_at_10": 0.06038251366120218,
+          "n_users": 2196,
+          "distinct_items_recommended": 81
+        },
+        "cf": {
+          "precision_at_10": 0.13870673952641166,
+          "n_users": 2196,
+          "distinct_items_recommended": 173
+        },
+        "hybrid": {
+          "precision_at_10": 0.10687613843351548,
+          "n_users": 2196,
+          "distinct_items_recommended": 181
+        }
+      },
+      "hybrid_vs_cf_relative_gain_warm": -0.025277940315974082,
+      "hybrid_vs_cbf_relative_gain_warm": 1.3297902097902101,
+      "criterion_1_met": false,
+      "criterion_2_met": true
+    },
+    {
+      "module_presentation": "DDD_2013B",
+      "n_items": 428,
+      "n_eval_users": 1189,
+      "n_raw_interaction_rows": 536837,
+      "warm": {
+        "cbf": {
+          "precision_at_10": 0.09848612279226242,
+          "n_users": 1189,
+          "distinct_items_recommended": 158
+        },
+        "cf": {
+          "precision_at_10": 0.5176619007569386,
+          "n_users": 1189,
+          "distinct_items_recommended": 103
+        },
+        "hybrid": {
+          "precision_at_10": 0.5148023549201008,
+          "n_users": 1189,
+          "distinct_items_recommended": 126
+        }
+      },
+      "cold_start": {
+        "cbf": {
+          "precision_at_10": 0.057022708158116074,
+          "n_users": 1189,
+          "distinct_items_recommended": 113
+        },
+        "cf": {
+          "precision_at_10": 0.15592935239697225,
+          "n_users": 1189,
+          "distinct_items_recommended": 341
+        },
+        "hybrid": {
+          "precision_at_10": 0.1330529857022708,
+          "n_users": 1189,
+          "distinct_items_recommended": 336
+        }
+      },
+      "hybrid_vs_cf_relative_gain_warm": -0.005523964256702073,
+      "hybrid_vs_cbf_relative_gain_warm": 4.227156276686591,
+      "criterion_1_met": false,
+      "criterion_2_met": true
+    },
+    {
+      "module_presentation": "DDD_2013J",
+      "n_items": 462,
+      "n_eval_users": 1724,
+      "n_raw_interaction_rows": 680806,
+      "warm": {
+        "cbf": {
+          "precision_at_10": 0.07964037122969839,
+          "n_users": 1724,
+          "distinct_items_recommended": 152
+        },
+        "cf": {
+          "precision_at_10": 0.4431554524361949,
+          "n_users": 1724,
+          "distinct_items_recommended": 106
+        },
+        "hybrid": {
+          "precision_at_10": 0.43955916473317863,
+          "n_users": 1724,
+          "distinct_items_recommended": 129
+        }
+      },
+      "cold_start": {
+        "cbf": {
+          "precision_at_10": 0.054524361948955914,
+          "n_users": 1724,
+          "distinct_items_recommended": 102
+        },
+        "cf": {
+          "precision_at_10": 0.1513341067285383,
+          "n_users": 1724,
+          "distinct_items_recommended": 347
+        },
+        "hybrid": {
+          "precision_at_10": 0.12099767981438517,
+          "n_users": 1724,
+          "distinct_items_recommended": 348
+        }
+      },
+      "hybrid_vs_cf_relative_gain_warm": -0.008115183246073403,
+      "hybrid_vs_cbf_relative_gain_warm": 4.51930080116533,
+      "criterion_1_met": false,
+      "criterion_2_met": true
+    },
+    {
+      "module_presentation": "DDD_2014B",
+      "n_items": 453,
+      "n_eval_users": 1081,
+      "n_raw_interaction_rows": 379942,
+      "warm": {
+        "cbf": {
+          "precision_at_10": 0.07853839037927846,
+          "n_users": 1081,
+          "distinct_items_recommended": 117
+        },
+        "cf": {
+          "precision_at_10": 0.43940795559666973,
+          "n_users": 1081,
+          "distinct_items_recommended": 98
+        },
+        "hybrid": {
+          "precision_at_10": 0.4433857539315449,
+          "n_users": 1081,
+          "distinct_items_recommended": 109
+        }
+      },
+      "cold_start": {
+        "cbf": {
+          "precision_at_10": 0.043755781683626274,
+          "n_users": 1081,
+          "distinct_items_recommended": 100
+        },
+        "cf": {
+          "precision_at_10": 0.14625346901017577,
+          "n_users": 1081,
+          "distinct_items_recommended": 326
+        },
+        "hybrid": {
+          "precision_at_10": 0.11544865864939871,
+          "n_users": 1081,
+          "distinct_items_recommended": 344
+        }
+      },
+      "hybrid_vs_cf_relative_gain_warm": 0.00905263157894747,
+      "hybrid_vs_cbf_relative_gain_warm": 4.645465253239104,
+      "criterion_1_met": false,
+      "criterion_2_met": true
+    },
+    {
+      "module_presentation": "DDD_2014J",
+      "n_items": 365,
+      "n_eval_users": 1571,
+      "n_raw_interaction_rows": 568901,
+      "warm": {
+        "cbf": {
+          "precision_at_10": 0.10082749840865692,
+          "n_users": 1571,
+          "distinct_items_recommended": 117
+        },
+        "cf": {
+          "precision_at_10": 0.4382558879694462,
+          "n_users": 1571,
+          "distinct_items_recommended": 106
+        },
+        "hybrid": {
+          "precision_at_10": 0.43755569700827507,
+          "n_users": 1571,
+          "distinct_items_recommended": 113
+        }
+      },
+      "cold_start": {
+        "cbf": {
+          "precision_at_10": 0.05817950350095481,
+          "n_users": 1571,
+          "distinct_items_recommended": 103
+        },
+        "cf": {
+          "precision_at_10": 0.14831317632081475,
+          "n_users": 1571,
+          "distinct_items_recommended": 282
+        },
+        "hybrid": {
+          "precision_at_10": 0.1176320814767664,
+          "n_users": 1571,
+          "distinct_items_recommended": 296
+        }
+      },
+      "hybrid_vs_cf_relative_gain_warm": -0.001597676107479809,
+      "hybrid_vs_cbf_relative_gain_warm": 3.3396464646464654,
+      "criterion_1_met": false,
+      "criterion_2_met": true
+    },
+    {
+      "module_presentation": "EEE_2013J",
+      "n_items": 112,
+      "n_eval_users": 923,
+      "n_raw_interaction_rows": 356262,
+      "warm": {
+        "cbf": {
+          "precision_at_10": 0.1114842903575298,
+          "n_users": 923,
+          "distinct_items_recommended": 69
+        },
+        "cf": {
+          "precision_at_10": 0.6187432286023834,
+          "n_users": 923,
+          "distinct_items_recommended": 60
+        },
+        "hybrid": {
+          "precision_at_10": 0.5976164680390033,
+          "n_users": 923,
+          "distinct_items_recommended": 62
+        }
+      },
+      "cold_start": {
+        "cbf": {
+          "precision_at_10": 0.10260021668472374,
+          "n_users": 923,
+          "distinct_items_recommended": 73
+        },
+        "cf": {
+          "precision_at_10": 0.17085590465872158,
+          "n_users": 923,
+          "distinct_items_recommended": 75
+        },
+        "hybrid": {
+          "precision_at_10": 0.147887323943662,
+          "n_users": 923,
+          "distinct_items_recommended": 94
+        }
+      },
+      "hybrid_vs_cf_relative_gain_warm": -0.03414463316406912,
+      "hybrid_vs_cbf_relative_gain_warm": 4.360544217687075,
+      "criterion_1_met": false,
+      "criterion_2_met": true
+    },
+    {
+      "module_presentation": "EEE_2014B",
+      "n_items": 109,
+      "n_eval_users": 606,
+      "n_raw_interaction_rows": 202224,
+      "warm": {
+        "cbf": {
+          "precision_at_10": 0.11303630363036303,
+          "n_users": 606,
+          "distinct_items_recommended": 73
+        },
+        "cf": {
+          "precision_at_10": 0.5310231023102311,
+          "n_users": 606,
+          "distinct_items_recommended": 60
+        },
+        "hybrid": {
+          "precision_at_10": 0.5161716171617161,
+          "n_users": 606,
+          "distinct_items_recommended": 65
+        }
+      },
+      "cold_start": {
+        "cbf": {
+          "precision_at_10": 0.1,
+          "n_users": 606,
+          "distinct_items_recommended": 80
+        },
+        "cf": {
+          "precision_at_10": 0.16023102310231024,
+          "n_users": 606,
+          "distinct_items_recommended": 83
+        },
+        "hybrid": {
+          "precision_at_10": 0.13729372937293727,
+          "n_users": 606,
+          "distinct_items_recommended": 99
+        }
+      },
+      "hybrid_vs_cf_relative_gain_warm": -0.027967681789931864,
+      "hybrid_vs_cbf_relative_gain_warm": 3.5664233576642332,
+      "criterion_1_met": false,
+      "criterion_2_met": true
+    },
+    {
+      "module_presentation": "EEE_2014J",
+      "n_items": 115,
+      "n_eval_users": 1049,
+      "n_raw_interaction_rows": 402947,
+      "warm": {
+        "cbf": {
+          "precision_at_10": 0.11820781696854146,
+          "n_users": 1049,
+          "distinct_items_recommended": 80
+        },
+        "cf": {
+          "precision_at_10": 0.5351763584366063,
+          "n_users": 1049,
+          "distinct_items_recommended": 60
+        },
+        "hybrid": {
+          "precision_at_10": 0.5207816968541468,
+          "n_users": 1049,
+          "distinct_items_recommended": 65
+        }
+      },
+      "cold_start": {
+        "cbf": {
+          "precision_at_10": 0.10066730219256434,
+          "n_users": 1049,
+          "distinct_items_recommended": 83
+        },
+        "cf": {
+          "precision_at_10": 0.16101048617731176,
+          "n_users": 1049,
+          "distinct_items_recommended": 89
+        },
+        "hybrid": {
+          "precision_at_10": 0.14022878932316493,
+          "n_users": 1049,
+          "distinct_items_recommended": 106
+        }
+      },
+      "hybrid_vs_cf_relative_gain_warm": -0.026897043106519445,
+      "hybrid_vs_cbf_relative_gain_warm": 3.4056451612903227,
+      "criterion_1_met": false,
+      "criterion_2_met": true
+    },
+    {
+      "module_presentation": "FFF_2013B",
+      "n_items": 508,
+      "n_eval_users": 1486,
+      "n_raw_interaction_rows": 946765,
+      "warm": {
+        "cbf": {
+          "precision_at_10": 0.17032301480484524,
+          "n_users": 1486,
+          "distinct_items_recommended": 135
+        },
+        "cf": {
+          "precision_at_10": 0.6403095558546434,
+          "n_users": 1486,
+          "distinct_items_recommended": 84
+        },
+        "hybrid": {
+          "precision_at_10": 0.6211978465679676,
+          "n_users": 1486,
+          "distinct_items_recommended": 96
+        }
+      },
+      "cold_start": {
+        "cbf": {
+          "precision_at_10": 0.06830417227456258,
+          "n_users": 1486,
+          "distinct_items_recommended": 187
+        },
+        "cf": {
+          "precision_at_10": 0.16971736204576043,
+          "n_users": 1486,
+          "distinct_items_recommended": 307
+        },
+        "hybrid": {
+          "precision_at_10": 0.13983849259757739,
+          "n_users": 1486,
+          "distinct_items_recommended": 361
+        }
+      },
+      "hybrid_vs_cf_relative_gain_warm": -0.02984760903836077,
+      "hybrid_vs_cbf_relative_gain_warm": 2.6471750296325554,
+      "criterion_1_met": false,
+      "criterion_2_met": true
+    },
+    {
+      "module_presentation": "FFF_2013J",
+      "n_items": 529,
+      "n_eval_users": 2052,
+      "n_raw_interaction_rows": 1172101,
+      "warm": {
+        "cbf": {
+          "precision_at_10": 0.2108187134502924,
+          "n_users": 2052,
+          "distinct_items_recommended": 204
+        },
+        "cf": {
+          "precision_at_10": 0.5988304093567253,
+          "n_users": 2052,
+          "distinct_items_recommended": 105
+        },
+        "hybrid": {
+          "precision_at_10": 0.5954191033138402,
+          "n_users": 2052,
+          "distinct_items_recommended": 114
+        }
+      },
+      "cold_start": {
+        "cbf": {
+          "precision_at_10": 0.07733918128654972,
+          "n_users": 2052,
+          "distinct_items_recommended": 453
+        },
+        "cf": {
+          "precision_at_10": 0.16505847953216377,
+          "n_users": 2052,
+          "distinct_items_recommended": 319
+        },
+        "hybrid": {
+          "precision_at_10": 0.13503898635477585,
+          "n_users": 2052,
+          "distinct_items_recommended": 405
+        }
+      },
+      "hybrid_vs_cf_relative_gain_warm": -0.005696614583333494,
+      "hybrid_vs_cbf_relative_gain_warm": 1.8243180767452611,
+      "criterion_1_met": false,
+      "criterion_2_met": true
+    },
+    {
+      "module_presentation": "FFF_2014B",
+      "n_items": 478,
+      "n_eval_users": 1333,
+      "n_raw_interaction_rows": 685274,
+      "warm": {
+        "cbf": {
+          "precision_at_10": 0.19984996249062265,
+          "n_users": 1333,
+          "distinct_items_recommended": 164
+        },
+        "cf": {
+          "precision_at_10": 0.5615903975993999,
+          "n_users": 1333,
+          "distinct_items_recommended": 96
+        },
+        "hybrid": {
+          "precision_at_10": 0.5655663915978995,
+          "n_users": 1333,
+          "distinct_items_recommended": 97
+        }
+      },
+      "cold_start": {
+        "cbf": {
+          "precision_at_10": 0.07659414853713428,
+          "n_users": 1333,
+          "distinct_items_recommended": 407
+        },
+        "cf": {
+          "precision_at_10": 0.16114028507126782,
+          "n_users": 1333,
+          "distinct_items_recommended": 272
+        },
+        "hybrid": {
+          "precision_at_10": 0.13360840210052516,
+          "n_users": 1333,
+          "distinct_items_recommended": 331
+        }
+      },
+      "hybrid_vs_cf_relative_gain_warm": 0.007079882447234743,
+      "hybrid_vs_cbf_relative_gain_warm": 1.829954954954955,
+      "criterion_1_met": false,
+      "criterion_2_met": true
+    },
+    {
+      "module_presentation": "FFF_2014J",
+      "n_items": 452,
+      "n_eval_users": 2043,
+      "n_raw_interaction_rows": 1210359,
+      "warm": {
+        "cbf": {
+          "precision_at_10": 0.18433675966715615,
+          "n_users": 2043,
+          "distinct_items_recommended": 167
+        },
+        "cf": {
+          "precision_at_10": 0.6062652961331375,
+          "n_users": 2043,
+          "distinct_items_recommended": 94
+        },
+        "hybrid": {
+          "precision_at_10": 0.6100832109642683,
+          "n_users": 2043,
+          "distinct_items_recommended": 107
+        }
+      },
+      "cold_start": {
+        "cbf": {
+          "precision_at_10": 0.08174253548702888,
+          "n_users": 2043,
+          "distinct_items_recommended": 399
+        },
+        "cf": {
+          "precision_at_10": 0.16598139990210475,
+          "n_users": 2043,
+          "distinct_items_recommended": 264
+        },
+        "hybrid": {
+          "precision_at_10": 0.14043073910915319,
+          "n_users": 2043,
+          "distinct_items_recommended": 334
+        }
+      },
+      "hybrid_vs_cf_relative_gain_warm": 0.006297432585177008,
+      "hybrid_vs_cbf_relative_gain_warm": 2.3096123207647374,
+      "criterion_1_met": false,
+      "criterion_2_met": true
+    },
+    {
+      "module_presentation": "GGG_2013J",
+      "n_items": 137,
+      "n_eval_users": 865,
+      "n_raw_interaction_rows": 145995,
+      "warm": {
+        "cbf": {
+          "precision_at_10": 0.23017341040462427,
+          "n_users": 865,
+          "distinct_items_recommended": 65
+        },
+        "cf": {
+          "precision_at_10": 0.40104046242774566,
+          "n_users": 865,
+          "distinct_items_recommended": 57
+        },
+        "hybrid": {
+          "precision_at_10": 0.39838150289017343,
+          "n_users": 865,
+          "distinct_items_recommended": 60
+        }
+      },
+      "cold_start": {
+        "cbf": {
+          "precision_at_10": 0.08450867052023121,
+          "n_users": 865,
+          "distinct_items_recommended": 44
+        },
+        "cf": {
+          "precision_at_10": 0.1623121387283237,
+          "n_users": 865,
+          "distinct_items_recommended": 107
+        },
+        "hybrid": {
+          "precision_at_10": 0.12924855491329482,
+          "n_users": 865,
+          "distinct_items_recommended": 113
+        }
+      },
+      "hybrid_vs_cf_relative_gain_warm": -0.006630152781781421,
+      "hybrid_vs_cbf_relative_gain_warm": 0.7307885484681066,
+      "criterion_1_met": false,
+      "criterion_2_met": true
+    },
+    {
+      "module_presentation": "GGG_2014B",
+      "n_items": 124,
+      "n_eval_users": 740,
+      "n_raw_interaction_rows": 123319,
+      "warm": {
+        "cbf": {
+          "precision_at_10": 0.1998648648648649,
+          "n_users": 740,
+          "distinct_items_recommended": 64
+        },
+        "cf": {
+          "precision_at_10": 0.36337837837837833,
+          "n_users": 740,
+          "distinct_items_recommended": 61
+        },
+        "hybrid": {
+          "precision_at_10": 0.36162162162162165,
+          "n_users": 740,
+          "distinct_items_recommended": 69
+        }
+      },
+      "cold_start": {
+        "cbf": {
+          "precision_at_10": 0.07662162162162163,
+          "n_users": 740,
+          "distinct_items_recommended": 47
+        },
+        "cf": {
+          "precision_at_10": 0.15783783783783786,
+          "n_users": 740,
+          "distinct_items_recommended": 85
+        },
+        "hybrid": {
+          "precision_at_10": 0.1214864864864865,
+          "n_users": 740,
+          "distinct_items_recommended": 86
+        }
+      },
+      "hybrid_vs_cf_relative_gain_warm": -0.004834510970620847,
+      "hybrid_vs_cbf_relative_gain_warm": 0.8093306288032452,
+      "criterion_1_met": false,
+      "criterion_2_met": true
+    },
+    {
+      "module_presentation": "GGG_2014J",
+      "n_items": 106,
+      "n_eval_users": 667,
+      "n_raw_interaction_rows": 117859,
+      "warm": {
+        "cbf": {
+          "precision_at_10": 0.23133433283358323,
+          "n_users": 667,
+          "distinct_items_recommended": 62
+        },
+        "cf": {
+          "precision_at_10": 0.38650674662668666,
+          "n_users": 667,
+          "distinct_items_recommended": 62
+        },
+        "hybrid": {
+          "precision_at_10": 0.37541229385307345,
+          "n_users": 667,
+          "distinct_items_recommended": 65
+        }
+      },
+      "cold_start": {
+        "cbf": {
+          "precision_at_10": 0.10374812593703146,
+          "n_users": 667,
+          "distinct_items_recommended": 48
+        },
+        "cf": {
+          "precision_at_10": 0.14602698650674664,
+          "n_users": 667,
+          "distinct_items_recommended": 85
+        },
+        "hybrid": {
+          "precision_at_10": 0.12668665667166418,
+          "n_users": 667,
+          "distinct_items_recommended": 90
+        }
+      },
+      "hybrid_vs_cf_relative_gain_warm": -0.02870442203258343,
+      "hybrid_vs_cbf_relative_gain_warm": 0.6228127025275435,
+      "criterion_1_met": false,
+      "criterion_2_met": true
+    }
+  ]
+}

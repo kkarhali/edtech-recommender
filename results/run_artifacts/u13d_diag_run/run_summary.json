@@ -1,0 +1,27 @@
+{
+  "status": "completed",
+  "exit_code": 0,
+  "started_at": "2026-09-24T04:35:28Z",
+  "finished_at": "2026-09-24T04:43:56Z",
+  "wall_clock_seconds": 507.89,
+  "process_cpu_seconds": 508.86,
+  "child_worker_wall_seconds": 0.0,
+  "cpu_hours": 0.14134982638888888,
+  "hardware": "Intel64 Family 6 Model 158 Stepping 13, GenuineIntel, 12 logical cores, no GPU",
+  "criteria": {
+    "C1": "unchecked",
+    "C2": "unchecked",
+    "C3": "unchecked",
+    "C4": "unchecked",
+    "C5": "unchecked",
+    "C6": "unchecked"
+  },
+  "assertions": {
+    "executed": {
+      "P2_rows_outside_catalogue": 22,
+      "SPLIT_EXCLUDED_LEARNERS": 22
+    },
+    "unchecked": {},
+    "flags": []
+  }
+}

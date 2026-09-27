@@ -1,0 +1,10 @@
+{
+  "b_id": null,
+  "binding_sha256": "918162da54511db399585f39352abeb41b9a3cbd4267623c36985443c5c9e394",
+  "idea_file": "idea.md",
+  "idea_sha256": "8be52b93fc723207d876ea7d17654fc5102fb27e502db0eb5521864f15bc1b43",
+  "origin": null,
+  "schema_version": 1,
+  "source_file": "data/ideas/e_learning_recommendation_system.txt",
+  "source_sha256": "8be52b93fc723207d876ea7d17654fc5102fb27e502db0eb5521864f15bc1b43"
+}
